@@ -35,7 +35,7 @@ In real-world data systems, subtle changes in data distribution can silently bre
 Ingest Data       →   Validate & Detect Drift   →   Log Run      →   Visualize in UI
  (ingest.py)           (drift_detector.py)          (run_log)        (Streamlit Dashboard)
 
-
+```
 ## 🛠️ Installation & Setup
 
 ```bash
@@ -59,3 +59,4 @@ python src/drift_detector.py
 
 # 6️⃣ Launch Dashboard
 streamlit run dashboard/app.py
+```
