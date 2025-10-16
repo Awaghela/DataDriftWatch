@@ -10,10 +10,10 @@ It simulates a real data monitoring pipeline — similar to what modern orchestr
 In real-world data systems, subtle changes in data distribution can silently break ML models, dashboards, or decision logic.  
 **DataDriftWatch** helps monitor these shifts by:
 
-✅ Ingesting data (batch or simulated streaming)  
-✅ Detecting statistical drift using tests like KS-test  
-✅ Logging each run with timestamped metadata  
-✅ Visualizing drift trends in an interactive Streamlit dashboard
+1. Ingesting data (batch or simulated streaming)  
+2. Detecting statistical drift using tests like KS-test  
+3. Logging each run with timestamped metadata  
+4. Visualizing drift trends in an interactive Streamlit dashboard
 
 ---
 
@@ -37,7 +37,7 @@ Ingest Data       →   Validate & Detect Drift   →   Log Run      →   Visua
 
 ```
 
-## 🛠️ Installation & Setup
+## Installation & Setup
 
 ```bash
 # 1️⃣ Clone the Repository
