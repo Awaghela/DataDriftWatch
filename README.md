@@ -5,7 +5,7 @@ It simulates a real data monitoring pipeline — similar to what modern orchestr
 
 ---
 
-## 🔍 Overview
+## Overview
 
 In real-world data systems, subtle changes in data distribution can silently break ML models, dashboards, or decision logic.  
 **DataDriftWatch** helps monitor these shifts by:
@@ -17,25 +17,26 @@ In real-world data systems, subtle changes in data distribution can silently bre
 
 ---
 
-## ✨ Key Features
+## Key Features
 
-| Feature | Description |
-|---------|-------------|
-| 📁 Data Ingestion | Pulls datasets or simulates time-series updates |
-| 📊 Drift Detection | KS-test for distribution shifts across features |
-| 📜 Run Logging | JSONL metadata with timestamps & drift metrics |
-| 📈 Interactive Dashboard | Streamlit + Plotly visualizations & filters |
-| 🚨 Future Ready | Supports alerts, scheduling, Dagster integration |
+| Feature                  | Description                                      |
+| ------------------------ | ------------------------------------------------ |
+| 📁 Data Ingestion        | Pulls datasets or simulates time-series updates  |
+| 📊 Drift Detection       | KS-test for distribution shifts across features  |
+| 📜 Run Logging           | JSONL metadata with timestamps & drift metrics   |
+| 📈 Interactive Dashboard | Streamlit + Plotly visualizations & filters      |
+| 🚨 Future Ready          | Supports alerts, scheduling, Dagster integration |
 
 ---
 
-## 🧠 How It Works (Pipeline Concept)
+## How It Works (Pipeline Concept)
 
 ```txt
 Ingest Data       →   Validate & Detect Drift   →   Log Run      →   Visualize in UI
  (ingest.py)           (drift_detector.py)          (run_log)        (Streamlit Dashboard)
 
 ```
+
 ## 🛠️ Installation & Setup
 
 ```bash
